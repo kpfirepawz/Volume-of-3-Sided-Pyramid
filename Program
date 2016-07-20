@@ -4,7 +4,7 @@ using namespace std;
 double pyramid (double a, double b, double c)
 {
   double pyr_vol;
-  pyr_vol=(a*b*c)/3;
+  pyr_vol=((0.5*a*b)*c);
   return (pyr_vol);
 }
 
